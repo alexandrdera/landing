@@ -1,0 +1,36 @@
+{
+  "name": "landing",
+  "version": "1.0.0",
+  "description": "Мой тестовый проект по вёрске",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alexandrdera/landing.git"
+  },
+  "author": "Александр Дерачиц",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/alexandrdera/landing/issues"
+  },
+  "homepage": "https://github.com/alexandrdera/landing#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.8",
+    "gulp": "github:gulpjs/gulp#4.0",
+    "gulp-pug": "^3.3.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^3.0.0",
+    "gulp.spritesmith": "^6.3.0",
+    "rimraf": "^2.6.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-postcss": "^7.0.1",
+    "gulp-sourcemaps": "^2.6.4",
+    "autoprefixer": "^8.4.1"
+  },
+  "dependencies": {
+    "help": "^3.0.2"
+  }
+}
