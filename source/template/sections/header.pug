@@ -1,13 +1,9 @@
 header.header
     .header__top
         .container
-            .contacts
-                a.contact(href="callto:+3807163373128") 
-                    i.fa.fa-mobile.contact__icon(aria-hidden="true")
-                    span.contact__text 6337 3128
-                a.contact(href="mailto:info@business.co")
-                    i.fa.fa-envelope.contact__icon.contact__icon_email(aria-hidden="true")
-                    span.contact__text info@business.co
-                a.facebook(href="http://facebook.com")
-                    i.fa.fa-facebook(aria-hidden="true")
-    .header_bottom
+            include contacts.pug
+    .container
+        .header__bottom
+            .logo: img.logo__icon(src="./images/logo.png")
+            include nav.pug
+            a.button(href="#") Free consultation

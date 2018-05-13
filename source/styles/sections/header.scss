@@ -43,3 +43,60 @@
     color: white;
     background-color: #1287bf;
 }
+
+.header__bottom{
+    margin: 38px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo{
+    display: inline-block;
+    margin-left: 3px;
+}
+
+.nav{
+    display: inline-block;
+    margin-left: 163px;
+
+    &__link:first-child{
+    }
+
+    &__link:first-child::before{
+        display: none;
+    }
+    
+    &__link{
+        font-family: $ff-main-bold;
+        color:  #424242;
+        transition: 0.3s;
+    }
+
+    &__link:hover{
+        color: #de2b24;   
+    }
+
+    &__link::before{
+        content: '';
+        display: inline-block;
+        width: 5px;
+        height: 5px;
+        background: #000;
+        border-radius: 50%;
+        vertical-align: middle;
+        margin: 0 15px;
+    }
+}
+
+.button{
+    padding: 8px 17px 9px 17px;
+    font-size: 1rem;
+    font-family: $ff-main-bold;
+    color: rgb(255, 255, 255);
+    border-radius: 4px;
+    background-color: rgb(222, 43, 36);
+    text-align: center;
+    text-transform: capitalize;
+}
