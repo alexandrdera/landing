@@ -1,0 +1,21 @@
+.button{
+    font-size: 1rem;
+    font-family: $ff-main-bold;
+    color: rgb(255, 255, 255);
+    background-color: rgb(222, 43, 36);
+    padding: 5px 10px;    
+    border-radius: 4px;
+    text-align: center;
+    
+    &_red{
+        padding: 8px 17px 9px 17px;
+        text-transform: capitalize;
+    }
+
+    &_yellow{
+        padding: 20px 40px;
+        background-color: #f8cd53;
+        text-transform: uppercase;
+        
+    }
+}
